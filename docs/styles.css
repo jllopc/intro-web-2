@@ -64,7 +64,7 @@ body {
     widht: 700px;
     height: 550px;
     display: block;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 120px;
 }
 
@@ -72,7 +72,7 @@ body {
     widht: 700px;
     height: 550px;
     display: block;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 180px;
 }
 
@@ -80,7 +80,7 @@ body {
     widht: 700px;
     height: 550px;
     display: block;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 170px;
 }
 
@@ -88,7 +88,7 @@ body {
     widht: 700px;
     height: 550px;
     display: block;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 165px;
 }
 
@@ -102,3 +102,15 @@ body {
     line-height: 1.25em;
     color: #222;
 }
+
+.titulosecundario {
+    font-family: Georgia;
+    margin-top: 80px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-weight: 200;
+    font-size: 2em;
+    line-height: 1.25em;
+    color: #222;
+}
+
