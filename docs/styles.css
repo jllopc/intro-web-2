@@ -1,5 +1,104 @@
 body {
-  margin: 0px;
-  padding:0px;
-  font-family: 'Roboto';
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 0px;
+  padding: 0px;
+  color: black;
+  border: 10px;
+  border-radius: 5px;
+}
+
+.logo {
+    widht: 800px;
+    height: 86px;
+    display: block;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+}
+
+.grafico1 {
+    widht: 700px;
+    height: 700px;
+    display: block;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+.mapa {
+	margin-top: 20px;
+	padding-top: 50px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+}
+
+.texto {
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-family: 'Gotham', sans-serif;
+    line-height: 26px;
+}
+
+.titulo {
+    font-family: Georgia;
+    margin-top: 80px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 1.25em;
+    color: #222;
+}
+
+.metro {
+   border-bottom: 7px solid  #fdd031;
+}
+
+.linea3 {
+    color: #fdd031;  
+}
+
+
+.renta {
+    widht: 700px;
+    height: 550px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.estudios {
+    widht: 700px;
+    height: 550px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+.paro {
+    widht: 700px;
+    height: 550px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+.esperanza {
+    widht: 700px;
+    height: 550px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 165px;
+}
+
+.titulo comprueba {
+    font-family: Georgia;
+    margin-top: 80px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 1.25em;
+    color: #222;
 }
