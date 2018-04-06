@@ -6,23 +6,23 @@ body {
   color: black;
   border: 10px;
   border-radius: 5px;
+  text-align: justify;
 }
 
 .logo {
-    widht: 800px;
-    height: 86px;
+    width: 100%;
     display: block;
-    margin: 0px;
+    margin: auto;
     position: fixed;
     top: 0;
 }
 
 .grafico1 {
-    widht: 700px;
-    height: 700px;
+    width: 95%;
     display: block;
-    margin-top: 150px;
-    margin-left: 90px;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .mapa {
@@ -33,84 +33,179 @@ body {
 }
 
 .texto {
-    margin-top: 50px;
-    margin-right: 250px;
-    margin-left: 250px;
-    font-family: 'Gotham', sans-serif;
-    line-height: 26px;
+    margin-top: 10px;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 190%;
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: #555;
 }
 
-.titulo {
-    font-family: Georgia;
-    margin-top: 80px;
-    margin-right: 250px;
-    margin-left: 250px;
-    font-weight: 400;
-    font-size: 3em;
-    line-height: 1.25em;
-    color: #222;
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 55px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 3%;
+}
+
+
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 55px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+p {
+    padding-bottom: 3%;
 }
 
 .metro {
    border-bottom: 7px solid  #fdd031;
 }
 
-.linea3 {
-    color: #fdd031;  
+
+.primerbox {
+    padding-left: 20%;
+    padding-right: 0%;
+    width: 11.5%;
+    padding-bottom: 5%;
+    padding-top: 7%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 
-.renta {
-    widht: 700px;
-    height: 550px;
+.box {
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 11.5%;
+    padding-bottom: 5%;
+    padding-top: 7%;
+}
+
+.ultimobox {
+    padding-left: 0%;
+    padding-right: 20%;
+    width: 11.5%;
+    padding-bottom: 5%;
+    padding-top: 7%;
+}
+
+.datosingresos {
+    color: #3498DB;
+}
+
+
+.datosformacion {
+    color: #27AE60;
+}
+
+
+.datosdesempleo {
+    color: #D35400;
+}
+
+
+.datosvida {
+    color: #9B59B6;
+}
+
+
+.datosinmigracion {
+    color: #fdd031;
+}
+
+.grafico2 {
+    width: 65%;
     display: block;
-    margin-top: 20px;
-    margin-left: 120px;
+    margin: auto;
+    padding-bottom: 0%;
 }
 
-.estudios {
-    widht: 700px;
-    height: 550px;
-    display: block;
-    margin-top: 20px;
-    margin-left: 180px;
+.cuerpoinspiracion {
+    margin-top: 10px;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 190%;
+    margin-bottom: 35px;
+    font-size: 20px;
+    color: #fdd031;
 }
 
-.paro {
-    widht: 700px;
-    height: 550px;
-    display: block;
-    margin-top: 20px;
-    margin-left: 170px;
-}
-
-.esperanza {
-    widht: 700px;
-    height: 550px;
-    display: block;
-    margin-top: 20px;
-    margin-left: 165px;
-}
-
-.titulo comprueba {
-    font-family: Georgia;
-    margin-top: 80px;
-    margin-right: 250px;
-    margin-left: 250px;
-    font-weight: 400;
-    font-size: 3em;
+.contacto {
+    margin: auto;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-family: 'Gotham', sans-serif;
+    font-size: 18px;
     line-height: 1.25em;
-    color: #222;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 5%;
 }
 
-.titulosecundario {
-    font-family: Georgia;
-    margin-top: 80px;
-    margin-right: 250px;
-    margin-left: 250px;
-    font-weight: 200;
-    font-size: 2em;
-    line-height: 1.25em;
-    color: #222;
+h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: #555;
 }
 
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+   padding-left: 20%;
+    padding-right: 0%;
+    width: 11.5%;
+    padding-bottom: 5%;
+    padding-top: 7%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
